@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+    <header>
+        <ul>
+            <a href=""><li>Menu</li></a>
+            <a href="{% url 'Rasul' %}"><li>About</li></a>
+            <a href="{% url 'Misha' %}"><li>Contacts</li></a>
+            <a href=""><li>Orders</li></a>
+        </ul>
+    </header>
+    <h1>Hello world</h1>
+    
+</body>
+</html>

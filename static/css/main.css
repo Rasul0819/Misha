@@ -1,0 +1,36 @@
+body{
+    background-color: blanchedalmond;
+    
+}
+h1{
+    font-family: Algerian;
+    color: cadetblue;
+}
+
+ul{
+    text-align: center;
+   
+
+
+    
+}
+li{
+    display: inline;
+
+
+}
+a{
+    font-family: Algerian;
+    color: cadetblue;
+    font-size: 20px;
+
+}
+a:hover{
+    color: rgb(92, 180, 151);
+
+}
+header{
+    color: rgb(50, 83, 84);
+    background-color: rgb(42, 66, 67);
+    
+}
